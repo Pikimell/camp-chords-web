@@ -1,0 +1,1 @@
+(2026-10-12) - Додали вебпісенник Next.js + Zustand: пошук, пісні, обране, колекції, транспонування, YouTube, тюнер та сумісний з iOS JSON-імпорт/експорт у LocalStorage. (feat: add CampChords web songbook with iOS import and export)

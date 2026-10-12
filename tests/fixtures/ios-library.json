@@ -1,0 +1,317 @@
+{
+  "collections": [
+    {
+      "_id": "cc0000010000000000000001",
+      "title": "Campfire Favorites",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "sortOrder": 0
+    },
+    {
+      "_id": "cc0000010000000000000002",
+      "title": "Acoustic Essentials",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "sortOrder": 1
+    },
+    {
+      "_id": "cc0000010000000000000003",
+      "title": "Classic Rock",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "sortOrder": 2
+    },
+    {
+      "_id": "cc0000010000000000000004",
+      "title": "Pop Sing-Alongs",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "sortOrder": 3
+    },
+    {
+      "_id": "cc0000010000000000000005",
+      "title": "Sunday Unplugged",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "sortOrder": 4
+    }
+  ],
+  "songs": [
+    {
+      "_id": "cc0000020000000000000001",
+      "title": "Wonderwall",
+      "author": "Oasis",
+      "content": "Verse 1\n<span class=\"podbor__chord\">G</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">D</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Em</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">C</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">G</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">D</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Em</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">C</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": true,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Britpop", "Acoustic"],
+      "collections": [
+        "cc0000010000000000000001",
+        "cc0000010000000000000002",
+        "cc0000010000000000000003"
+      ]
+    },
+    {
+      "_id": "cc0000020000000000000002",
+      "title": "Let It Be",
+      "author": "The Beatles",
+      "content": "Verse 1\n<span class=\"podbor__chord\">C</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">G</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Am</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">F</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">C</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">G</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Am</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">F</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Classic Rock", "Piano"],
+      "collections": [
+        "cc0000010000000000000001",
+        "cc0000010000000000000003",
+        "cc0000010000000000000005"
+      ]
+    },
+    {
+      "_id": "cc0000020000000000000003",
+      "title": "Perfect",
+      "author": "Ed Sheeran",
+      "content": "Verse 1\n<span class=\"podbor__chord\">D</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">A</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Bm</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">G</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">D</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">A</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Bm</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">G</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">D</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">A</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Bm</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">G</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">D</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">A</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Bm</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">G</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": true,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Pop", "Love Songs"],
+      "collections": [
+        "cc0000010000000000000002",
+        "cc0000010000000000000004",
+        "cc0000010000000000000005"
+      ]
+    },
+    {
+      "_id": "cc0000020000000000000004",
+      "title": "Hotel California",
+      "author": "Eagles",
+      "content": "Verse 1\n<span class=\"podbor__chord\">Am</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">F</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">C</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">G</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">Am</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">F</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">C</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">G</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">Am</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">F</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">C</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">G</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">Am</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">F</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">C</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">G</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Classic Rock"],
+      "collections": ["cc0000010000000000000002", "cc0000010000000000000003"]
+    },
+    {
+      "_id": "cc0000020000000000000005",
+      "title": "Take Me Home, Country Roads",
+      "author": "John Denver",
+      "content": "Verse 1\n<span class=\"podbor__chord\">G</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">D</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Em</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">C</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">G</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">D</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Em</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">C</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": true,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Country", "Sing-Along"],
+      "collections": ["cc0000010000000000000001", "cc0000010000000000000002"]
+    },
+    {
+      "_id": "cc0000020000000000000006",
+      "title": "Yellow",
+      "author": "Coldplay",
+      "content": "Verse 1\n<span class=\"podbor__chord\">C</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">G</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Am</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">F</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">C</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">G</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Am</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">F</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": true,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Alternative", "Acoustic"],
+      "collections": [
+        "cc0000010000000000000002",
+        "cc0000010000000000000004",
+        "cc0000010000000000000005"
+      ]
+    },
+    {
+      "_id": "cc0000020000000000000007",
+      "title": "Someone Like You",
+      "author": "Adele",
+      "content": "Verse 1\n<span class=\"podbor__chord\">D</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">A</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Bm</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">G</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">D</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">A</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Bm</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">G</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">D</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">A</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Bm</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">G</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">D</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">A</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Bm</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">G</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Pop", "Ballad"],
+      "collections": ["cc0000010000000000000004", "cc0000010000000000000005"]
+    },
+    {
+      "_id": "cc0000020000000000000008",
+      "title": "Stand by Me",
+      "author": "Ben E. King",
+      "content": "Verse 1\n<span class=\"podbor__chord\">Am</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">F</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">C</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">G</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">Am</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">F</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">C</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">G</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">Am</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">F</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">C</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">G</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">Am</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">F</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">C</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">G</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Soul", "Classic"],
+      "collections": ["cc0000010000000000000001", "cc0000010000000000000005"]
+    },
+    {
+      "_id": "cc0000020000000000000009",
+      "title": "Hallelujah",
+      "author": "Leonard Cohen",
+      "content": "Verse 1\n<span class=\"podbor__chord\">G</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">D</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Em</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">C</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">G</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">D</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Em</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">C</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": true,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Folk", "Ballad"],
+      "collections": ["cc0000010000000000000002", "cc0000010000000000000005"]
+    },
+    {
+      "_id": "cc000002000000000000000a",
+      "title": "Knockin’ on Heaven’s Door",
+      "author": "Bob Dylan",
+      "content": "Verse 1\n<span class=\"podbor__chord\">C</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">G</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Am</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">F</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">C</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">G</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Am</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">F</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Folk Rock"],
+      "collections": ["cc0000010000000000000001", "cc0000010000000000000003"]
+    },
+    {
+      "_id": "cc000002000000000000000b",
+      "title": "Hey Jude",
+      "author": "The Beatles",
+      "content": "Verse 1\n<span class=\"podbor__chord\">D</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">A</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Bm</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">G</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">D</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">A</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Bm</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">G</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">D</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">A</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Bm</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">G</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">D</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">A</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Bm</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">G</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Classic Rock", "Sing-Along"],
+      "collections": ["cc0000010000000000000001", "cc0000010000000000000003"]
+    },
+    {
+      "_id": "cc000002000000000000000c",
+      "title": "Wish You Were Here",
+      "author": "Pink Floyd",
+      "content": "Verse 1\n<span class=\"podbor__chord\">Am</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">F</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">C</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">G</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">Am</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">F</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">C</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">G</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">Am</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">F</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">C</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">G</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">Am</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">F</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">C</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">G</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Classic Rock", "Acoustic"],
+      "collections": ["cc0000010000000000000002", "cc0000010000000000000003"]
+    },
+    {
+      "_id": "cc000002000000000000000d",
+      "title": "Shape of You",
+      "author": "Ed Sheeran",
+      "content": "Verse 1\n<span class=\"podbor__chord\">G</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">D</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Em</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">C</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">G</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">D</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Em</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">C</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Pop"],
+      "collections": ["cc0000010000000000000004"]
+    },
+    {
+      "_id": "cc000002000000000000000e",
+      "title": "Shake It Off",
+      "author": "Taylor Swift",
+      "content": "Verse 1\n<span class=\"podbor__chord\">C</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">G</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Am</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">F</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">C</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">G</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Am</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">F</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Pop", "Upbeat"],
+      "collections": ["cc0000010000000000000004"]
+    },
+    {
+      "_id": "cc000002000000000000000f",
+      "title": "Flowers",
+      "author": "Miley Cyrus",
+      "content": "Verse 1\n<span class=\"podbor__chord\">D</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">A</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Bm</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">G</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">D</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">A</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Bm</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">G</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">D</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">A</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Bm</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">G</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">D</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">A</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Bm</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">G</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Pop"],
+      "collections": ["cc0000010000000000000004", "cc0000010000000000000005"]
+    },
+    {
+      "_id": "cc0000020000000000000010",
+      "title": "Riptide",
+      "author": "Vance Joy",
+      "content": "Verse 1\n<span class=\"podbor__chord\">Am</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">F</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">C</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">G</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">Am</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">F</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">C</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">G</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">Am</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">F</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">C</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">G</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">Am</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">F</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">C</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">G</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": true,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Indie Folk"],
+      "collections": [
+        "cc0000010000000000000001",
+        "cc0000010000000000000002",
+        "cc0000010000000000000004"
+      ]
+    },
+    {
+      "_id": "cc0000020000000000000011",
+      "title": "Viva La Vida",
+      "author": "Coldplay",
+      "content": "Verse 1\n<span class=\"podbor__chord\">G</span>  The lantern makes a circle on the wooden floor\n<span class=\"podbor__chord\">D</span>  A friend arrives with stories from the road before\n<span class=\"podbor__chord\">Em</span>  We pass another cup and let the evening slow\n<span class=\"podbor__chord\">C</span>  The rhythm of the room is all we need to know\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow\n\nVerse 2\n<span class=\"podbor__chord\">G</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">D</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Em</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">C</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">G</span>  Sing a little louder till the daylight ends\n<span class=\"podbor__chord\">D</span>  Keep a steady rhythm with a room of friends\n<span class=\"podbor__chord\">Em</span>  Every simple note can make the evening glow\n<span class=\"podbor__chord\">C</span>  Take another breath and let the music flow",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Alternative", "Sing-Along"],
+      "collections": ["cc0000010000000000000003", "cc0000010000000000000004"]
+    },
+    {
+      "_id": "cc0000020000000000000012",
+      "title": "I’m Yours",
+      "author": "Jason Mraz",
+      "content": "Verse 1\n<span class=\"podbor__chord\">C</span>  The city lights are fading at the edge of town\n<span class=\"podbor__chord\">G</span>  We set our heavy bags and tired shoulders down\n<span class=\"podbor__chord\">Am</span>  A melody is waiting in the open sky\n<span class=\"podbor__chord\">F</span>  We hum a little tune as all the clouds drift by\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune\n\nVerse 2\n<span class=\"podbor__chord\">C</span>  We packed a small guitar and headed down the lane\n<span class=\"podbor__chord\">G</span>  The morning painted gold across the windowpane\n<span class=\"podbor__chord\">Am</span>  A paper map unfolded in the summer air\n<span class=\"podbor__chord\">F</span>  We found a quiet place and left our worries there\n\nChorus\n<span class=\"podbor__chord\">C</span>  Let the little lantern light the path ahead\n<span class=\"podbor__chord\">G</span>  Save the sweetest stories for the songs instead\n<span class=\"podbor__chord\">Am</span>  Hear the wooden strings beneath the quiet moon\n<span class=\"podbor__chord\">F</span>  There is always room for one more easy tune",
+      "descriptionText": "Development fixture: original demo lyrics and sample chords, not the original song or arrangement.",
+      "createdAt": "2026-10-01T12:00:00Z",
+      "updatedAt": "2026-10-01T12:00:00Z",
+      "isFavorite": false,
+      "isPrivate": true,
+      "ton": 0,
+      "tags": ["Acoustic Pop"],
+      "collections": [
+        "cc0000010000000000000001",
+        "cc0000010000000000000002",
+        "cc0000010000000000000005"
+      ]
+    }
+  ]
+}
