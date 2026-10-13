@@ -1,72 +1,67 @@
 # CampChords Web
 
-Локальний вебпісенник на Next.js App Router, React, TypeScript і Zustand. Створений за функціоналом сусіднього `camp-chords-ios`; бібліотека і налаштування зберігаються у LocalStorage.
+> A local-first songbook for guitarists: search chords online, build your own library and collections, transpose on the fly, and tune your guitar in the browser.
 
-## Запуск
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38)
+![Web Audio](https://img.shields.io/badge/Web_Audio_API-FF6F00)
 
-Потрібен Node.js 20.9+.
+The web version of the CampChords mobile app. Your library lives in the browser, with no account required, and is fully compatible with the mobile app's JSON export.
 
-```sh
+## Features
+
+- **Online chord search** via a server-side proxy (Next.js route handlers avoid CORS issues), with query history, pagination, preview, and duplicate protection.
+- **Personal library:** create and edit songs (author, tags, notes, source, YouTube link), favourites, search, tag filters, and 7 sort modes.
+- **Collections** with custom ordering.
+- **Transposition** that handles slash chords and flats, plus adjustable font size and a performer mode with keyboard shortcuts (`←/→` next song, `Shift+↑/↓` change key).
+- **Chromatic tuner** built on the Web Audio API and microphone input (A4 = 440 Hz).
+- **YouTube integration:** attach videos manually or by search, including bulk matching for songs without a video.
+- **Import/export** of JSON compatible with the mobile app, validated before anything is written.
+- **Safe rendering:** chord HTML from external sources is sanitized with `sanitize-html`.
+- Print view, responsive layout, and automatic light/dark theme.
+
+## Engineering notes
+
+- **Data integrity:** import validates the whole file first, rejects files with duplicate IDs instead of partially importing them, and never overwrites existing records. Generated IDs are 24-hex `ObjectId`-compatible.
+- **Storage resilience:** if `localStorage` is corrupted, the app never overwrites it and offers a raw backup download instead. If the quota is exceeded, the current in-memory data can still be exported.
+- **Tests:** 10 tests cover JSON compatibility against a real mobile export fixture, duplicate handling, validation, store persistence, HTML sanitizing, transposition, and tuner pitch detection on synthetic guitar frequencies.
+
+## Getting started
+
+Requires Node.js 20.9+.
+
+```bash
 npm install
-npm run dev
-```
-
-Відкрити http://127.0.0.1:3010. Перевірки без build:
-
-```sh
-npm run typecheck
+npm run dev        # http://127.0.0.1:3010
 npm test
+npm run typecheck
 ```
 
-## Можливості
+Optional video search configuration:
 
-- Онлайн-пошук акордів через той самий API, що використовує iOS, історія запитів, пагінація, перегляд перед збереженням і захист від повторного збереження.
-- Створення, редагування і видалення власних пісень, автор, теги, номер, нотатки, джерело, приватність та YouTube.
-- Обране, пошук у бібліотеці, фільтр тегів і всі сім способів сортування з iOS.
-- Колекції: створення, перейменування, видалення, додавання/прибирання пісень, власний порядок та сортування за назвою/кількістю пісень.
-- Транспонування, включно зі слеш-басом і бемолями. Збереження зсуву в `ton`, регулювання шрифту та режим виконавця.
-- Стрілки ←/→ перемикають пісні; Shift+↑/↓ змінюють тональність. Звичайні ↑/↓ прокручують сторінку.
-- Відео YouTube, ручне додавання посилання, пошук відео та масовий підбір першого результату для пісень без відео.
-- Хроматичний тюнер через Web Audio і мікрофон, стандартний гітарний стрій, A4 = 440 Hz. Мікрофон потребує дозволу користувача та localhost/HTTPS.
-- JSON-імпорт/експорт iOS, друк пісні, адаптивна верстка та автоматична світла/темна тема Campfire.
-
-## Сумісність із iOS
-
-Експорт — об’єкт `{ "songs": [...], "collections": [...] }`, без оболонки Zustand. Поля та їхні назви відповідають `ExportImportService.swift`, зокрема `_id`, `remoteID`, `userId`, `descriptionText`, `youtubeVideoID`, `ton`, `number`, `isPrivate`, `sortOrder` і ISO8601-дати. Нові ID мають 24 hex-символи та приймаються Realm ObjectId. Назва колекції зберігається в `title`.
-
-Імпорт перевіряє весь файл перед зміною бібліотеки, додає лише невідомі ID та не перезаписує наявні записи, як iOS. Невалідні ID зв’язків колекцій відкидаються, відповідно до iOS. Відсутні опціональні поля отримують ті самі значення за замовчуванням. Дата може містити або не містити мілісекунди. Файли з повторюваними ID відхиляються замість часткового імпорту. Ліміт імпорту — 15 МБ; фактична місткість залежить від квоти LocalStorage браузера.
-
-JSON з iOS містить HTML акордів. Оригінальний `content` зберігається для експорту; відображення очищає небезпечний HTML і залишає текст та акорди. У редакторі можна писати `[Am]текст [F]пісні` або рядок `C G Am F`. Незмінений текст існуючої пісні зберігає оригінальний HTML.
-
-Приклад реального iOS-файлу є в `tests/fixtures/ios-library.json`. Він використовується для перевірок і не імпортується автоматично.
-
-## Зовнішні сервіси
-
-Next.js routes `/api/chords` і `/api/youtube` проксіюють пошук, щоб браузер не залежав від CORS. Дані бібліотеки ці routes не зберігають. Пошукові запити передаються відповідному сервісу, відео завантажується з YouTube.
-
-API акордів уже має адресу за замовчуванням із iOS. За потреби можна перевизначити `CHORDS_API_URL` у `.env.local`.
-
-Для пошуку відео:
-
-```sh
+```bash
 cp .env.example .env.local
 ```
 
-Заповнити `YOUTUBE_SEARCH_URL` адресою функції `.../functions/v1/youtube-search` із конфігу iOS і `YOUTUBE_SEARCH_KEY` її publishable key. Локально конфіг уже перенесено з `Info.plist`; `.env.local` і ключ не включено в Git. Перезапустити dev server після зміни ENV. Без конфігу доступні посилання на пошук YouTube і ручне додавання відео. Не використовувати service-role ключ.
+| Variable | Description |
+| :-- | :-- |
+| `CHORDS_API_URL` | Override the default chords API |
+| `YOUTUBE_SEARCH_URL`, `YOUTUBE_SEARCH_KEY` | Video search function and its publishable key |
 
-## Збереження й межі
+## Project structure
 
-Ключ сховища: `campchords-library-v1`. Бібліотека, налаштування та останні запити живуть у конкретному браузері й origin. Інший порт/домен має окреме сховище. Регулярно експортувати резервну копію перед очищенням даних браузера. При вичерпанні квоти показується попередження: поточні дані можна експортувати з пам’яті. Пошкоджене сховище не перезаписується; показується екран завантаження сирої резервної копії.
+```
+src/
+├── app/            # App Router pages and /api/chords, /api/youtube proxies
+├── components/     # songbook, song detail, editor, tuner, modal
+└── lib/            # chords (transpose), library (import/export), store, api
+tests/              # store and library tests + mobile export fixture
+```
 
-Це локальна версія пісенника. Авторизація, хмарна синхронізація, реклама і покупки мобільного застосунку сюди не перенесені. Для пошуку потрібні інтернет і доступність API. Збережені пісні доступні без запитів до сервісу; повне відкриття сайту без мережі після закриття вкладки не реалізовано (немає service worker).
+Detailed documentation in Ukrainian: [README-uk.md](README-uk.md).
 
-## Перевірено 2026-10-12
+## Author
 
-- TypeScript: `tsc --noEmit`; 10 тестів: JSON-сумісність, дублікати, валідація, збереження Zustand, безпечний HTML, транспонування і синтетичні частоти гітарних струн.
-- У браузері: створення пісні, обране, відновлення після reload, транспонування, колекція і додавання пісні, імпорт 18 пісень/5 колекцій із iOS-фікстури та експорт завантаженого JSON (20 пісень/6 колекцій разом із тестовими записами).
-- Живий пошук акордів: 40 результатів для «Океан Ельзи»; відкриття й збереження «Обійми».
-- Інтерфейс оглянуто на ширині 1280 і 390 px; мобільне горизонтальне переповнення відсутнє.
-- **Обмеження:** домен Supabase-функції YouTube із поточного iOS-конфігу не резолвиться, тому живий пошук відео/масовий підбір не підтверджено. Ручне посилання і зовнішній пошук доступні. Реальний звук із мікрофона та автоматичну темну тему окремо не перевірено. Повний офлайн-запуск і мобільні хмарні/платіжні функції не реалізовані.
-- Build не запускався.
-
-Документація стеку: [Next.js](https://nextjs.org/docs/app), [Zustand persist](https://zustand.docs.pmnd.rs/reference/middlewares/persist).
+**Volodymyr Pashchenko**, Full-stack Developer · [GitHub](https://github.com/Pikimell) · [LinkedIn](https://www.linkedin.com/in/pashchenko-v-r)
